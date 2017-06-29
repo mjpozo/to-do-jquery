@@ -18,7 +18,6 @@ section {
 	text-align: right;
 }
 
-.cont-check{
-	height: 4vh;
+.check{
+	border: 1px solid black !important;
 }
-
