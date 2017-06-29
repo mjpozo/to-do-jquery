@@ -8,7 +8,34 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	
+	<header>
+		<h4>To Do List</h4>
+	</header>
+
+	<section class="container">
+		<div class="row">
+			<div class="col offset-s3 s6">
+				<form class="formulario" action="">
+					<input type="text" id="work" placeholder="Ingrese la tarea">
+					<button id="send">Ingresar</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div id="lista">
+				<div id="cont-por-hacer">
+					<div class="col offset-s3 s6" id="por-hacer">
+						<h5>To Do Items</h5>
+					</div>
+				</div>
+				<div id="cont-hecho">
+					<div class="col offset-s3 s6" id="hecho">
+						<h5>Completed Items</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>

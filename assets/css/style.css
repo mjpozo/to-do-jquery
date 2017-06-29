@@ -1,0 +1,24 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: rgb(232, 232, 232);
+}
+
+header {
+	background: rgb(255, 187, 0);
+	padding: 1% 3%;
+}
+
+section {
+	padding: 10% 0;
+}
+
+.send {
+	text-align: right;
+}
+
+.cont-check{
+	height: 4vh;
+}
+
