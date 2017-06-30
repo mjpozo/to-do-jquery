@@ -18,7 +18,7 @@ $(document).ready(function(){
 			$("#cont-check-do" + i.toString()).append('<label for="check-do' + i.toString() + '">' + tarea + '</label>');
 
 			$("#rowDone" + i.toString()).append('<div class="col s10 cont-check" id="cont-check-done' + i.toString() + '"></div>');
-			$("#cont-check-done" + i.toString()).append('<input type="checkbox" class="check" id="check-done' + i.toString() + '" value="miCheck-do' + i.toString() + '">');
+			$("#cont-check-done" + i.toString()).append('<input type="checkbox" class="check" id="check-done' + i.toString() + '" value="miCheck-done' + i.toString() + '">');
 			$("#cont-check-done" + i.toString()).append('<label for="check-done' + i.toString() + '">' + tarea + '</label>');
 
 			$("#rowDo" + i.toString()).append('<div class="col s2" id="cont-btn-do' + i.toString() + '"></div>');
@@ -49,10 +49,8 @@ $(document).ready(function(){
 		});
 
 		//para los checks
-		if ($("[checked]").val() == "checked"){
-				
-
-			}
+		$("#rowDone" + i.toString()).hide();
+		//$(document).on("change",);
 		
 		
 
