@@ -8,7 +8,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-.manuscrita{
+.manuscrita {
 	font-family: 'Over the Rainbow', cursive;
 }
 
@@ -26,5 +26,27 @@ section {
 	border-top-left-radius: 50px;
 	border-bottom-right-radius: 50px;
 	border: 5px solid rgb(77, 182, 172);
+}
+
+#work {
+	margin-left: 1%;
+}
+
+.title {
+	margin: 2% 0;
+}
+
+.prefix {
+	margin-top: 90%;
+	color: rgb(77, 182, 172);
+}
+
+.line {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+hr {
+	border: 1px solid #b2dfdb;
 }
 

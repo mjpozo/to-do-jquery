@@ -14,12 +14,17 @@
 		<h3 class="manuscrita">To Do List</h3>
 	</header>
 
-	<section class="container">
+	<section class="container z-depth-5">
 		<div class="row">
 			<div class="col offset-s3 s6">
 				<form class="formulario" action="">
-					<input type="text" id="work" placeholder="Ingrese la tarea">
-					<a class="waves-effect waves-light btn" id="send">Ingresar</a>
+					<div class="col s1">
+						<i class="small material-icons prefix">mode_edit</i>
+					</div>
+					<div class="col s10">
+						<input type="text" id="work" placeholder="Ingrese la tarea">
+					</div>
+					<!--<a class="waves-effect waves-light btn" id="send">Ingresar</a>-->
 				</form>
 			</div>
 		</div>
@@ -27,12 +32,23 @@
 			<div id="lista">
 				<div id="cont-por-hacer">
 					<div class="col offset-s2 s8" id="por-hacer">
-						<h5 class="manuscrita">To Do Items</h5>
+						<div class="col s1">
+							<i class="small material-icons prefix">list</i>
+						</div>
+						<div class="col s10 title">
+							<h5 class="manuscrita">To Do Items</h5>
+						</div>
 					</div>
 				</div>
+				<div class="col offset-s2 s8 line"><hr></div>
 				<div id="cont-hecho">
 					<div class="col offset-s2 s8" id="hecho">
-						<h5 class="manuscrita">Completed Items</h5>
+						<div class="col s1">
+							<i class="small material-icons prefix">done</i>
+						</div>
+						<div class="col s10 title">
+							<h5 class="manuscrita">Completed Items</h5>
+						</div>
 					</div>
 				</div>
 			</div>
